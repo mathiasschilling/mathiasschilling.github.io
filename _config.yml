@@ -15,18 +15,18 @@ website: https://github.com/mathiasschilling
 darkmode: true
 
 # Social links
-#twitter_username: facespics
+#twitter_username: mathiasschilling
 github_username:  mathiasschilling
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
+# dribbble_username: mathiasschilling
+# facebook_username: mathiasschilling
+# flickr_username: mathiasschilling
+#instagram_username: mathiasschilling
 linkedin_username: mathias-schilling
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
+# xing_username: mathiasschilling
+# pinterest_username: mathiasschilling
+#youtube_username: mathiasschilling
+# googleplus_username: +mathiasschilling
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
@@ -50,8 +50,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I bring a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. My projects reflect my commitment to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
 
-  #I like: <mark>RAG</mark> and <mark>Eating Pizza</mark>
-
 content:
   - title: Personal Projects
     layout: list # Type of content section (list/text)
@@ -59,14 +57,6 @@ content:
       - layout: top-middle
         title: AB-Test using generated personas and LLMs
         link: [GitHub Link](https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs)
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Quickly create surveys about which contentet is preferred using personas and LLMs.
         description: | # this will include new lines to allow paragraphs
@@ -87,42 +77,28 @@ content:
     content:
       - layout: left
         title: ALgorithm Specialist, Data Scientist (Metrohm AG)
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        #sub_title: Senior Network System Administrator
         caption: 2022 - today
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Development and deployment of algorithms for multivariate regression and classification.
-            - Design and training of neural networks for regression and object classification
+          - Development and deployment of algorithms for multivariate regression and classification.
+          - Design and training of neural networks for regression and object classification
             
       - layout: left
         title: Systems Engineer, Deveopment of New Spectroscopic Systems (Metrohm AG)
         link: [2060 The NIR](https://youtu.be/Wuio7pqlPf0?feature=shared)
-        # link_text: boringcompany.com
-        #sub_title: Senior Network System Administrator
         caption: 2017 - 2022
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Development of various NIR spectroscopy systems from the conceptual phase to release.
-            - Main focus on numerical methods for multivariate data analysis.
-            - Engaged in requirements engineering and testing.
-            - Development of a temperature-stable instrument calibration scheme.
+          - Development of various NIR spectroscopy systems from the conceptual phase to release.
+          - Main focus on numerical methods for multivariate data analysis.
+          - Engaged in requirements engineering and testing.
+          - Development of a temperature-stable instrument calibration scheme.
             
       - layout: left
         title: Applications Specialist Spectroscopy (Metrohm AG)
-        #link: boringcompany.com
-        # link_text: boringcompany.com
-        #sub_title: Senior Network System Administrator
         caption: 2016 - 2017
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            - Conducting feasibility studies for NIR analytical systems.
-            - Creating marketing material for the systems.
-            - Providing training on the use and application of NIR analytical systems.
+          - Conducting feasibility studies for NIR analytical systems.
+          - Creating marketing material for the systems.
+          - Providing training on the use and application of NIR analytical systems.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -133,18 +109,18 @@ content:
         caption: 2022 - 2024
         #sub_title: MSc Chemistry for the Life Sciences
         description: | # this will include new lines to allow paragraphs
-              - Proficient in data description and graphical representation using R.
-              - Competent in statistical models, hypothesis testing, confidence intervals, and regression analysis with R.
-              - Skilled in clustering and classification, including kNN, classification trees, and random forests.
-              - Foundational Python scripting abilities and proficiency in SQL for data manipulation and warehousing.
-              - Experienced with Big Data tools like Apache Hadoop and Spark, and in executing large-volume data projects.
-              - Capable of advanced regression modeling, network analysis, and data enhancement and processing with R.
-              - Knowledgeable in machine learning and deep learning principles, selecting appropriate techniques and developing models with sklearn in Python.
-              - Proficient in advanced data science techniques including Retrieval-Augmented Generation (RAG), computer vision, and advanced statistical evaluation with R. 
+          - Proficient in data description and graphical representation using R.
+          - Competent in statistical models, hypothesis testing, confidence intervals, and regression analysis with R.
+          - Skilled in clustering and classification, including kNN, classification trees, and random forests.
+          - Foundational Python scripting abilities and proficiency in SQL for data manipulation and warehousing.
+          - Experienced with Big Data tools like Apache Hadoop and Spark, and in executing large-volume data projects.
+          - Capable of advanced regression modeling, network analysis, and data enhancement and processing with R.
+          - Knowledgeable in machine learning and deep learning principles, selecting appropriate techniques and developing models with sklearn in Python.
+          - Proficient in advanced data science techniques including Retrieval-Augmented Generation (RAG), computer vision, and advanced statistical evaluation with R. 
           
       - layout: left
         title:  MSc Chemistry for the Life Sciences
-        link: [Mathias Schilling and Jürgen Stohner, "Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy," Appl. Opt. 56, 4076-4084 (2017)](https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687)
+        link: [M. Schilling, J. Stohner, Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy, Appl. Opt. 56, 4076-4084 (2017)](https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687)
         caption: 2008 - 2016
         #sub_title:
         description: | # this will include new lines to allow paragraphs
