@@ -48,7 +48,7 @@ linkedin_username: mathias-schilling
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I bring a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. My projects reflect my commitment to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
+  I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I bring a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. With a keen eye on the latest advancements in machine learning, my professional such as private projects reflect my passion to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
 
 content:
   - title: Personal Projects
