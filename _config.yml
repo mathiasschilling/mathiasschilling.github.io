@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Mathias Schilling
 title: Data Scientist, Systems Engineer, Algorithm Specialist
-email: mathias.schilling@gmx.ch
+email: mathias.schilling 'at' gmx.ch
 website: https://github.com/mathiasschilling
 
 # Dark Mode (true/false/never)
@@ -48,7 +48,7 @@ linkedin_username: mathias-schilling
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I brings a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. My projects reflect my commitment to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
+  I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I bring a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. My projects reflect my commitment to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
 
   #I like: <mark>RAG</mark> and <mark>Eating Pizza</mark>
 
@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: AB-Test using generated personas and LLMs
-        link: https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs
+        link: [GitHub Link](https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs)
         # link_text: Project Website
         #additional_links:
         #  - title:  sproogen/modern-resume-theme
@@ -76,7 +76,7 @@ content:
           
       - layout: top-middle
         title: AB-Test using generated personas and LLMs
-        link: hhttps://github.com/mathiasschilling/ParaglidingTracker
+        link: [GitHub Link](https://github.com/mathiasschilling/ParaglidingTracker)
         quote: >
           Visualize and analyze your own paragliding flights.
         description: | # this will include new lines to allow paragraphs
@@ -99,14 +99,17 @@ content:
             
       - layout: left
         title: Systems Engineer, Deveopment of New Spectroscopic Systems (Metrohm AG)
-        link: https://youtu.be/Wuio7pqlPf0?feature=shared
+        link: [2060 The NIR](https://youtu.be/Wuio7pqlPf0?feature=shared)
         # link_text: boringcompany.com
         #sub_title: Senior Network System Administrator
         caption: 2017 - 2022
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Deveopment of various NIR spectroscopy systems from the conceptual to release phase. Main focus spent on numerical methods for multivariate data analysis, requirements engineering and testing, such as development temperature stable instrument calibration scheme.
+            - Development of various NIR spectroscopy systems from the conceptual phase to release.
+            - Main focus on numerical methods for multivariate data analysis.
+            - Engaged in requirements engineering and testing.
+            - Development of a temperature-stable instrument calibration scheme.
             
       - layout: left
         title: Applications Specialist Spectroscopy (Metrohm AG)
@@ -117,14 +120,16 @@ content:
         #quote: >
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Conducting feasibility studies for NIR analytical systems, creating marketing material and providing trainings.
+            - Conducting feasibility studies for NIR analytical systems.
+            - Creating marketing material for the systems.
+            - Providing training on the use and application of NIR analytical systems.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: MAS Data Science
-        #linkl: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
+        #link: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
         caption: 2022 - 2024
         #sub_title: MSc Chemistry for the Life Sciences
         description: | # this will include new lines to allow paragraphs
@@ -139,13 +144,14 @@ content:
           
       - layout: left
         title:  MSc Chemistry for the Life Sciences
-        linkl: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
+        link: [Mathias Schilling and Jürgen Stohner, "Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy," Appl. Opt. 56, 4076-4084 (2017)](https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687)
         caption: 2008 - 2016
         #sub_title:
         description: | # this will include new lines to allow paragraphs
-          For my thesis, I investigated multimodulation artifacts in FT-IR spectroscopy and ways to demodulate the interferograms. The work culminated in a published article:
+          - Investigation of emergence of multimodulation artifacts in FT-IR spectroscopy.
+          - Development of a demodulation scheme of interferograms reducing the artifacts.
           
-          Mathias Schilling and Jürgen Stohner, "Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy," Appl. Opt. 56, 4076-4084 (2017) 
+          
 
   - title: A Little More About Me
     layout: text
@@ -156,9 +162,6 @@ content:
       - Running
       - Baking
       - ProjectEuler
-
-      #Test image.
-      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
