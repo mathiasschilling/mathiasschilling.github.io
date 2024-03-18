@@ -56,7 +56,7 @@ content:
     content:
       - layout: top-middle
         title: AB-Test using generated personas and LLMs
-        link: [GitHub Link](https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs)
+        link: https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs
         quote: >
           Quickly create surveys about which contentet is preferred using personas and LLMs.
         description: | # this will include new lines to allow paragraphs
@@ -66,7 +66,7 @@ content:
           
       - layout: top-middle
         title: AB-Test using generated personas and LLMs
-        link: [GitHub Link](https://github.com/mathiasschilling/ParaglidingTracker)
+        link: https://github.com/mathiasschilling/ParaglidingTracker
         quote: >
           Visualize and analyze your own paragliding flights.
         description: | # this will include new lines to allow paragraphs
@@ -84,7 +84,7 @@ content:
             
       - layout: left
         title: Systems Engineer, Deveopment of New Spectroscopic Systems (Metrohm AG)
-        link: [2060 The NIR](https://youtu.be/Wuio7pqlPf0?feature=shared)
+        link: https://youtu.be/Wuio7pqlPf0
         caption: 2017 - 2022
         description: | # this will include new lines to allow paragraphs
           - Development of various NIR spectroscopy systems from the conceptual phase to release.
@@ -120,7 +120,7 @@ content:
           
       - layout: left
         title:  MSc Chemistry for the Life Sciences
-        link: [M. Schilling, J. Stohner, Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy, Appl. Opt. 56, 4076-4084 (2017)](https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687)
+        link: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
         caption: 2008 - 2016
         #sub_title:
         description: | # this will include new lines to allow paragraphs
