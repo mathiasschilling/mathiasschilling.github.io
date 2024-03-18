@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Mathias Schilling
+title: Data Scientist, Systems Engineer, Algorithm Specialist
+email: mathias.schilling@gmx.ch
+website: https://github.com/mathiasschilling
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  mathiasschilling
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+linkedin_username: mathias-schilling
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,117 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I brings a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. My projects reflect my commitment to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  #I like: <mark>RAG</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Personal Projects
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: AB-Test using generated personas and LLMs
+        link: https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Quickly create surveys about which contentet is preferred using personas and LLMs.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This project demonstates fast and extensive comparison and evaluation possibilities of two sets of content items <mark>A</mark> and <mark>B</mark> by A/B testing means using generated personas in combination with large language models (LLMs). For demonstration purposes, job descriptions are used. Fittingly, as for personas, gratuates of different fields of study are created.
+          
+          Of course, the scope of such comparisons is not limited to job descriptions. With slight modifications, images such as landing sites and design choices can be compared quite easily and extensively, e.g. using GPT Vision.
+          
+      - layout: top-middle
+        title: AB-Test using generated personas and LLMs
+        link: hhttps://github.com/mathiasschilling/ParaglidingTracker
+        quote: >
+          Visualize and analyze your own paragliding flights.
+        description: | # this will include new lines to allow paragraphs
+          This R script is developed to analyze and visualize paragliding flight data, e.g. from Skytraxx variometer records. It processes data sets including altitude, longitude, and latitude, offering useful analytics to understand paragliding patterns and behaviors.
 
-  - title: Experience # Title for the section
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: ALgorithm Specialist, Data Scientist (Metrohm AG)
+        #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        #sub_title: Senior Network System Administrator
+        caption: 2022 - today
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - Development and deployment of algorithms for multivariate regression and classification.
+            - Design and training of neural networks for regression and object classification
+            
+      - layout: left
+        title: Systems Engineer, Deveopment of New Spectroscopic Systems (Metrohm AG)
+        link: https://youtu.be/Wuio7pqlPf0?feature=shared
+        # link_text: boringcompany.com
+        #sub_title: Senior Network System Administrator
+        caption: 2017 - 2022
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Deveopment of various NIR spectroscopy systems from the conceptual to release phase. Main focus spent on numerical methods for multivariate data analysis, requirements engineering and testing, such as development temperature stable instrument calibration scheme.
+            
+      - layout: left
+        title: Applications Specialist Spectroscopy (Metrohm AG)
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        #sub_title: Senior Network System Administrator
+        caption: 2016 - 2017
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Conducting feasibility studies for NIR analytical systems, creating marketing material and providing trainings.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: MAS Data Science
+        #linkl: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
+        caption: 2022 - 2024
+        #sub_title: MSc Chemistry for the Life Sciences
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+              - Proficient in data description and graphical representation using R.
+              - Competent in statistical models, hypothesis testing, confidence intervals, and regression analysis with R.
+              - Skilled in clustering and classification, including kNN, classification trees, and random forests.
+              - Foundational Python scripting abilities and proficiency in SQL for data manipulation and warehousing.
+              - Experienced with Big Data tools like Apache Hadoop and Spark, and in executing large-volume data projects.
+              - Capable of advanced regression modeling, network analysis, and data enhancement and processing with R.
+              - Knowledgeable in machine learning and deep learning principles, selecting appropriate techniques and developing models with sklearn in Python.
+              - Proficient in advanced data science techniques including Retrieval-Augmented Generation (RAG), computer vision, and advanced statistical evaluation with R. 
+          
+      - layout: left
+        title:  MSc Chemistry for the Life Sciences
+        linkl: https://opg.optica.org/ao/fulltext.cfm?uri=ao-56-14-4076&id=363687
+        caption: 2008 - 2016
+        #sub_title:
+        description: | # this will include new lines to allow paragraphs
+          For my thesis, I investigated multimodulation artifacts in FT-IR spectroscopy and ways to demodulate the interferograms. The work culminated in a published article:
+          
+          Mathias Schilling and Jürgen Stohner, "Demodulation of multimodulation artifacts in Fourier-transform infrared spectroscopy," Appl. Opt. 56, 4076-4084 (2017) 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in data science, machine learning, RAG and automation, some of my other interests and hobbies are:
+      - Paragliding
+      - Bouldering
+      - Running
+      - Baking
+      - ProjectEuler
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      #Test image.
+      #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
