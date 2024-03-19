@@ -55,7 +55,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: AB-Test using generated personas and LLMs
+        title: AB-Test Using Generated Personas and LLMs
         link: https://github.com/mathiasschilling/A-B-Test-Using-Generated-Personas-and-LLMs
         quote: >
           Quickly create surveys about which contentet is preferred using personas and LLMs.
@@ -109,13 +109,13 @@ content:
         caption: 2022 - 2024
         #sub_title: MSc Chemistry for the Life Sciences
         description: | # this will include new lines to allow paragraphs
-          - Proficient in data description and graphical representation using R.
+          - Proficient in data description and graphical representation using R and Python.
           - Competent in statistical models, hypothesis testing, confidence intervals, and regression analysis with R.
           - Skilled in clustering and classification, including kNN, classification trees, and random forests.
           - Foundational Python scripting abilities and proficiency in SQL for data manipulation and warehousing.
           - Experienced with Big Data tools like Apache Hadoop and Spark, and in executing large-volume data projects.
-          - Capable of advanced regression modeling, network analysis, and data enhancement and processing with R.
-          - Knowledgeable in machine learning and deep learning principles, selecting appropriate techniques and developing models with sklearn in Python.
+          - Capable of advanced regression modeling, network analysis, and data enhancement and processing with R and Python.
+          - Knowledgeable in machine learning and deep learning principles, selecting appropriate techniques and developing models with TensorFlow in Python.
           - Proficient in advanced data science techniques including Retrieval-Augmented Generation (RAG), computer vision, and advanced statistical evaluation with R. 
           
       - layout: left
@@ -127,7 +127,18 @@ content:
           - Investigation of emergence of multimodulation artifacts in FT-IR spectroscopy.
           - Development of a demodulation scheme of interferograms reducing the artifacts.
 
-  #- title: Programming Skills
+  - title: Programming Skills
+    programming_skills:
+      - name: Matlab
+        confidence: 100 # for bar
+        dots: 5 # for dots
+      - name: Python
+        confidence: 100
+        dots: 5
+      - name: C++
+        confidence: 50
+        dots: 5
+
           
 
   - title: A Little More About Me
