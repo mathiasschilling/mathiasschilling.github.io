@@ -3,3 +3,29 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Skill Bar Styles
+.skills-container {
+  .skill {
+    margin-bottom: 20px; // Space between each skill bar
+  }
+
+  .skill-name {
+    font-weight: bold; // Bold font for the skill name
+    margin-bottom: 5px; // Space between skill name and bar
+  }
+
+  .skill-bar-container {
+    background-color: #eee; // Background of the bar container
+    border-radius: 8px; // Rounded corners for the bar container
+    overflow: hidden; // Ensures inner bar stays within the container's curve
+  }
+
+  .skill-bar {
+    background-color: #3498db; // Color of the skill bar
+    height: 20px; // Height of the skill bar
+    border-radius: 8px; // Rounded corners for the skill bar
+    width: 0%; // Initial width of the skill bar (animation starts here)
+    transition: width 2s; // Smooth transition for the bar loading
+  }
+}

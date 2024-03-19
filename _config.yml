@@ -51,7 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   I'm a passionate algorithm developer and data scientist with a keen interest in applying technology to solve real-world problems. With a background in systems engineering, I bring a unique perspective to the intersection of data science, applied machine learning, RAG and data-driven analysis and modeling. With a keen eye on the latest advancements in machine learning, my professional such as private projects reflect my passion to innovative approaches in optimizing processes through the power of LLMs and data-driven insights.
 
 content:
-  - title: Personal Projects
+  - title: Public Projects
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -65,7 +65,7 @@ content:
           Of course, the scope of such comparisons is not limited to job descriptions. With slight modifications, images such as landing sites and design choices can be compared quite easily and extensively, e.g. using GPT Vision.
           
       - layout: top-middle
-        title: AB-Test using generated personas and LLMs
+        title: Paragliding Tracker
         link: https://github.com/mathiasschilling/ParaglidingTracker
         quote: >
           Visualize and analyze your own paragliding flights.
@@ -76,14 +76,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ALgorithm Specialist, Data Scientist (Metrohm AG)
+        title: Algorithm Specialist, Data Scientist (Metrohm AG)
         caption: 2022 - today
         description: | # this will include new lines to allow paragraphs
           - Development and deployment of algorithms for multivariate regression and classification.
-          - Design and training of neural networks for regression and object classification
+          - Design and training of neural networks for regression and object classification.
             
       - layout: left
-        title: Systems Engineer, Deveopment of New Spectroscopic Systems (Metrohm AG)
+        title: Systems Engineer, Development of New Spectroscopic Systems (Metrohm AG)
         link: https://youtu.be/Wuio7pqlPf0
         caption: 2017 - 2022
         description: | # this will include new lines to allow paragraphs
@@ -126,7 +126,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Investigation of emergence of multimodulation artifacts in FT-IR spectroscopy.
           - Development of a demodulation scheme of interferograms reducing the artifacts.
-          
+
+  #- title: Programming Skills
           
 
   - title: A Little More About Me
@@ -138,6 +139,11 @@ content:
       - Running
       - Baking
       - ProjectEuler
+
+
+
+
+
 
 # Footer
 footer_show_references: true
