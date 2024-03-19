@@ -127,19 +127,7 @@ content:
           - Investigation of emergence of multimodulation artifacts in FT-IR spectroscopy.
           - Development of a demodulation scheme of interferograms reducing the artifacts.
 
-  - title: Programming Skills
-    programming_skills:
-      - name: Matlab
-        confidence: 100 # for bar
-        dots: 5 # for dots
-      - name: Python
-        confidence: 100
-        dots: 5
-      - name: C++
-        confidence: 50
-        dots: 5
-
-          
+         
 
   - title: A Little More About Me
     layout: text
@@ -150,10 +138,6 @@ content:
       - Running
       - Baking
       - ProjectEuler
-
-
-
-
 
 
 # Footer
