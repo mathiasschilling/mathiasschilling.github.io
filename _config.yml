@@ -52,20 +52,6 @@ about_content: |
 
 content:
 
-  - title: Skills
-    layout: list
-    content:
-      - layout: left
-        #title: Skills
-        description: |
-          - Python, Matlab, R, C++
-          - Data mining and visualization
-          - Experience with ML/DL frameworks in Python (TensorFlow, Scikit-Learn)
-          - Application of GenAI models (OpenAI API, llama-cpp, ollama, stable-diffusion)
-          - PoC of custom RAG applications (langchain, custom embeddings, VectorDB, prompt augmentation and tuning)
-          - Cloud computing in Microsoft Azure
-          - ETL, MySQL
-
   - title: Public Projects
     layout: list
     content:
@@ -147,6 +133,17 @@ content:
   - title: A Little More About Me
     layout: list
     content:
+
+      - layout: left
+        title: Skills
+        description: |
+          - Python, Matlab, R, C++
+          - Data mining and visualization
+          - Experience with ML/DL frameworks in Python (TensorFlow, Scikit-Learn)
+          - Application of GenAI models (OpenAI API, llama-cpp, ollama, stable-diffusion)
+          - PoC of custom RAG applications (langchain, custom embeddings, VectorDB, prompt augmentation and tuning)
+          - Cloud computing in Microsoft Azure
+          - ETL, MySQL
 
       - layout: left
         title: Other Hobbies
