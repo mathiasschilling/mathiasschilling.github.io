@@ -53,7 +53,7 @@ about_content: |
 content:
 
   - title: Skills
-    layout: text
+    layout: list
     content:
       - layout: left
         #title: Skills
