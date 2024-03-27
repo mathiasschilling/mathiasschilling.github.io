@@ -144,15 +144,15 @@ content:
           - ETL, MySQL
           
           
-    layout: text
-    title: Other Hobbies
-    content: |
-      Alongside my interests in data science, machine learning, RAG and automation, some of my other interests and hobbies are:
-      - Paragliding
-      - Bouldering
-      - Running
-      - Baking
-      - ProjectEuler
+      - layout: text
+        title: Other Hobbies
+        content: |
+          Alongside my interests in data science, machine learning, RAG and automation, some of my other interests and hobbies are:
+          - Paragliding
+          - Bouldering
+          - Running
+          - Baking
+          - ProjectEuler
 
 
 # Footer
