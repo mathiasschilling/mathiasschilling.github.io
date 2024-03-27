@@ -144,7 +144,7 @@ content:
           - ETL, MySQL
           
           
-      - layout: text
+      - layout: list
         title: Other Hobbies
         description: |
           Alongside my interests in data science, machine learning, RAG and automation, some of my other interests and hobbies are:
